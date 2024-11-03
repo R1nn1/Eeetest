@@ -1,1 +1,5 @@
+local folderPath = "RinnsHubSettings"
 
+    if not isfolder(folderPath) then
+        makefolder(folderPath)
+    end
