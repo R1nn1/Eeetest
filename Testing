@@ -1,5 +1,11 @@
-local folderPath = "RinnsHubSettings"
+local folder = "RinnsHubSettings"
 
-    if not isfolder(folderPath) then
-        makefolder(folderPath)
+    if not isfolder(folder) then
+        makefolder(folder)
+    end
+
+local folder1 = "RinnsHubTheme"
+
+    if not isfolder(folder1) then
+        makefolder(folder1)
     end
